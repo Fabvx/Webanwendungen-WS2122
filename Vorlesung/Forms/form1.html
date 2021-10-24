@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="verarbeitung.php" method="post">
+    <fieldset>
+        <legend>Basisdaten</legend>
+    <label for="vorname">Vorname</label>
+    <input type="text" name="vorname" id="vorname" value="Platzda"><br><br>
+    <label for="om"> Online-Medien-Management</label>
+    <input type="radio" name="fach" id="om">
+    <label for="wi">Wirtschafts-Informatik</label>
+    <input type="radio" name="fach" id="wi">
+
+    <select name="studiengang">
+        <option value="nix">Bitte wählen Sie</option>
+        <option value="om7">OMM</option>
+        <option value="wi7">WI</option>
+    </select>
+    </fieldset>
+        <br><br>
+
+    <textarea   name="nachricht" cols="40" rows="5">Halli hallo</textarea>
+    <input type="submit">
+</form>
+
+</body>
+</html>
